@@ -10,6 +10,9 @@ function App() {
           HerdHelp Coming Soon
         </h1>
       </header>
+      <footer>
+        <h2>Powered by NerdTech</h2>
+      </footer>
     </div>
   );
 }

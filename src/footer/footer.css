@@ -1,0 +1,19 @@
+footer{
+    background: rgba(99, 93, 93, 0.336);
+    width: max-content;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    z-index: 5;
+    position: fixed ;
+    right:5%;
+    color: rgb(41, 7, 7);
+    /* transform: translateX(-50%); */
+    bottom: 1rem;
+    display: flex;
+    /* gap: 0.8rem; */
+    border-radius: 1rem;
+    /* backdrop-filter: blur(12px); */
+}
+h2{
+    font-size: 1rem;
+}

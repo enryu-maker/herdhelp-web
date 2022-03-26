@@ -1,0 +1,9 @@
+.menu{
+    right: 0;
+    position: absolute;
+}
+
+.search{
+    position: absolute;
+    left: 36%;
+}

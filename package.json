@@ -47,5 +47,8 @@
   "bugs": {
     "url": "https://github.com/enryu-maker/herdhelp-web/issues"
   },
-  "homepage": "https://github.com/enryu-maker/herdhelp-web#readme"
+  "homepage": "https://github.com/enryu-maker/herdhelp-web#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
 }

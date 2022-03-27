@@ -6,8 +6,8 @@ import { COLORS } from '../Theme/Theme';
 
 function NavBar() {
   return (
-    <Navbar className='navbar fixed-top' style={{backgroundColor:COLORS.Primary}} expand="lg">
-  <Container fluid>
+    <Navbar className='navbar fixed-top navigation'>
+  <Container fluid className='innavbar'>
     <Navbar.Brand href="#"><img src={require('../assets/Logo/Herd-Help-Logo.png')} className="logo" alt="logo" style={{height:60,width:200,}} /></Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
@@ -19,7 +19,7 @@ function NavBar() {
           className="me-2" 
           aria-label="Search"
         />
-        <Button style={{backgroundColor:COLORS.black , borderRadius:10}} >Search</Button>
+        <Button  >Search</Button>
       </Form>
 
       <Nav
@@ -27,9 +27,9 @@ function NavBar() {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action1">Home</Nav.Link>
-        <Nav.Link href="#action2">Login</Nav.Link>
-        <Nav.Link href="#action2">Register</Nav.Link>
+        <Nav.Link href="#Headder">Home</Nav.Link>
+        <Nav.Link href="#Login">Login</Nav.Link>
+        <Nav.Link href="#Register">Register</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

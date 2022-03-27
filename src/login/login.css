@@ -6,7 +6,6 @@
 
 .box{
     width: 400px;
-    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,18 +15,23 @@
     background: rgba(0, 0, 0, 0.8);
 }
 .box h1{
+    background: none;
     margin-bottom: 30px;
     color: white;
     text-align: center;
     text-transform: capitalize;
 }
+form{
+    background: none;
+}
 
 .box .input_box{
+    background: none;
     position: relative;
     text-align: center;
 }
 .box .input_box input{
-    
+    background: none;
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -40,6 +44,7 @@
     outline: none;
 }
 .box .input_box label{
+    background: none;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -56,11 +61,11 @@
     left: 0;
     color: #03a9f4;
     font-size: 12px;
+    background: none;
 }
 
 
 .box input[type="submit"]{
-    background: transparent;
     border: none;
     outline: none;
     color: #fff;

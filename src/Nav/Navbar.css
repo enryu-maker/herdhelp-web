@@ -1,9 +1,19 @@
 .menu{
-    right: 0;
+    right: 1%;
     position: absolute;
 }
 
 .search{
     position: absolute;
     left: 36%;
+}
+
+.navigation{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(7, 7, 29, 0.5));
+    border-radius: 20px;
+    padding: 0.5%;
+}
+.innavbar{
+    border-radius: 20px;
+    padding: auto;
 }

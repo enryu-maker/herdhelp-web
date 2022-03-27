@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function register() {
   return (
     <>
-    <div className='main_div'>
+    <div className='main_div' id='Register'>
         <div className='box'>
             <h1>Register Form</h1>
             <form method='' action=''>

@@ -1,0 +1,7 @@
+.login{
+    overflow: hidden;
+}
+section{
+    display: block;
+    height: 100vh;
+}

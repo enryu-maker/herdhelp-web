@@ -14,15 +14,16 @@ function login() {
             <h1>LOGIN Form</h1>
             <Form method='' action='' >
                 <div className='input_box'>
-                    <input type="text" name='Username' autoComplete='off' required></input>
-                    <label>username</label>
+                    <input type="text" name='email' autoComplete='off' required></input>
+                    <label>Email</label>
                 </div>
                 <div className='input_box'>
                     <input type="password" name='password' autoComplete='off' required></input>
                     <label>password</label>
                 </div>
+                
 
-                <Button type="submit">login</Button>
+                <Button type="submit">login</Button><a className='link' href='#Register' >Create Account</a><br/>
             </Form>
 
         </div>

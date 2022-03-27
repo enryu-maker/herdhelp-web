@@ -1,5 +1,5 @@
 .menu{
-    right: 1%;
+    
     position: absolute;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .navigation{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(7, 7, 29, 0.5));
+    background: linear-gradient(rgba(94, 255, 0, 0.705),rgba(17, 104, 0, 0.5));
     border-radius: 20px;
     padding: 0.5%;
 }

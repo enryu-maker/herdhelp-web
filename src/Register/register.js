@@ -1,6 +1,7 @@
 import React from 'react'
 import './register.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Form , Button } from 'react-bootstrap';
 
 function register() {
   return (
@@ -26,7 +27,7 @@ function register() {
                     <label>password</label>
                 </div>
 
-                <input  type="submit" name='' value="Register"></input>
+                <Button type="submit">Register</Button><a className='link' href='#Login' >I have an Account</a><br/>
             </form>
 
         </div>

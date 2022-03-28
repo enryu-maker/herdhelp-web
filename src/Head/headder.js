@@ -21,7 +21,7 @@
                 </p>
 
 
-               <button className='btn btn1 m-1 mt-3'  >Download</button>
+               <button className='btn btn1 m-1 mt-3'  > <Image className='img-fluid' src={require('../assets/Logo/download.gif')} alt=''/> Download</button>
                <button className='btn btn2 m-1 mt-3'  >Preview</button>
                <br />
                <button className='btn btn3 m-1 mt-2 logout'  >Logout</button>

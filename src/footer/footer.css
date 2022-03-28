@@ -1,25 +1,9 @@
-/* footer{
-    background: linear-gradient(rgba(138, 11, 11, 0.685),rgba(22, 177, 17, 0.644));
-    width: max-content;
-    display: block;
-    
-    z-index: 5;
-    position: fixed ;
-    right:2%;
-    color: rgb(41, 7, 7);
-    transform: translateX(-50%);
-    bottom: 1rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 1rem;
-    letter-spacing: 1.5px;
-    backdrop-filter: blur(12px);
-} */
+
 /* h2{
     background: none;
     font-size: 1rem;
 } */
 
 footer{
-    height: 30px;    
+    letter-spacing: 1.5px;
 }

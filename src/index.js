@@ -7,14 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './Nav/Navbar'
 import Headder from './Head/headder'
 import Footer from './footer/footer'
-import Logins from './logins/logins'
+// import Logins from './logins/logins'
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar/>
     <Headder/>
-    <Logins/>
+    {/* <Logins/> */}
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')

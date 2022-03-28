@@ -9,7 +9,7 @@
 }
 
 .navigation{
-    background: linear-gradient(rgba(94, 255, 0, 0.705),rgba(17, 104, 0, 0.5));
+    background: var(--color-primary1);
     border-radius: 20px;
     padding: 0.5%;
 }

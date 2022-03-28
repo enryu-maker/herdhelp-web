@@ -11,7 +11,7 @@
             <Image className='img-fluid img1 m-1 mt-5' src={require('../assets/imgs1.jpeg')} alt=''/>
             <Image className='img-fluid img2 m-1 mt-5' src={require('../assets/imgs2.jpeg')} alt=''/>
         </div>
-        <div class="col-md text-center m-5">
+        <div class="col-md text-center m-5 box">
             <h1 class=" mt-5">HERD HELP</h1>
 
                 <p className='mt-5'> Herd help give solution of everything
@@ -21,10 +21,10 @@
                 </p>
 
 
-               <button className='btn btn1 m-1 mt-3'  > <Image className='img-fluid' src={require('../assets/Logo/download.gif')} alt=''/> Download</button>
-               <button className='btn btn2 m-1 mt-3'  >Preview</button>
+               <button className='btn1'  > <Image className='img-fluid logo ' src={require('../assets/Logo/download.png')}/> DOWNLOAD</button>
+               <button className='btn2'  >PREVIEW</button>
                <br />
-               <button className='btn btn3 m-1 mt-2 logout'  >Logout</button>
+               <button className='btn3 logout'  > <Image className='img-fluid logo ' src={require('../assets/Logo/logout.png')}/> LOGOUT</button>
         </div>
 
     </div>

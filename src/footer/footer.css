@@ -4,6 +4,28 @@
     font-size: 1rem;
 } */
 
-footer{
+footer hr{
+    margin: 0 10%;
+    border: 1px solid rgba(167, 126, 126, 0.479);
+}
+
+
+.footer{
     letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    text-align: center;
+}
+.footerimg{
+    text-align: left;
+}
+
+.footertext{
+    text-align: end;
+    font-size: 14px;
+    word-spacing: 2px;
+    float: right;
+    margin: auto;
 }

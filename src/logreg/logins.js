@@ -1,6 +1,6 @@
 import React from 'react'
-// import Login from './login'
-import Register from './register'
+import Login from './login'
+// import Register from './register'
 import './logreg.css'
 
 function logins() {
@@ -8,8 +8,8 @@ function logins() {
     <>
 
     <div className='logreg'> 
-    {/* <Login/> */}
-    <Register/>
+    <Login/>
+    {/* <Register/> */}
     </div>
     </>
   )

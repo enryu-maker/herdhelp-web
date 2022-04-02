@@ -1,21 +1,24 @@
 
 import './App.css';
 
+// import Navbar from './Nav/Navbar'
+// import Headder from './Head/headder'
+// import Footer from './footer/footer'
+// import Logins from './logreg/logins'
+// import {Route  , link } from 'react-router-dom'
+import Mainpage from './mainpage/mainpage';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={require('./logo.png')} className="App-logo" alt="logo" />
-        <h1>
-          HerdHelp Coming Soon
-        </h1>
-      </header>
-      <footer>
-        <h2>Powered by NerdTech</h2>
-      </footer>
-    </div>
+    <>
+    {/* <Navbar /> */}
+    {/* <Headder /> */}
+    {/* <Logins /> */}
+    {/* <Footer /> */}
+    <Mainpage/>
+    {/* <Route exact path='/' component={Headder}/> */}
+    </>
   );
 }
 

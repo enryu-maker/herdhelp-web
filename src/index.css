@@ -38,3 +38,11 @@ code {
   --color-green: #27AE60;
   --color-layout:#f0f0f0;
 }
+
+input{
+  margin: 1% 2%;
+  padding: 3.5% 6%;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+}

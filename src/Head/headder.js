@@ -22,8 +22,8 @@
                     <p className='p-text'>   Download the App now
                 </p>
             <div className='buttons'>
-               <button className='btn1'  > <img className='logo ' src={require('../assets/Logo/download.png')} alt='' /> DOWNLOAD for IOS</button>
-               <button className='btn1'  > <img className='logo ' src={require('../assets/Logo/download.png')} alt='' /> DOWNLOAD for Android</button>
+               <button className='btn1'  > <img className='store' src={require('../assets/Logo/apple2.png')} alt='' /> DOWNLOAD for IOS</button>
+               <button className='btn1'  > <img className='store' src={require('../assets/Logo/play.png')} alt='' /> DOWNLOAD for Android</button>
                </div>
         </div>
 </div>

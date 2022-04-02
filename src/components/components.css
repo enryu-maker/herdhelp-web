@@ -1,0 +1,51 @@
+.addanimals , .addmedication , .updateweight{
+    margin-left: 50%;
+    margin-top: 1%;
+    transform: translate(-50%);
+    text-align: center;
+    padding: 5% 2%;
+    width: 800px;
+    min-height: 500px;
+    background-color: var(--color-lightgray2);
+    border-radius: 20px;
+}
+
+.addanimals .tag , .addmedication .tag{
+    margin: 2% 2%;
+}
+
+
+.addanimalsbtn{
+    
+    background-color: var(--color-primary);
+    border: none;
+    padding: 1% 6%;
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--color-white);
+    transition: 0.7s;
+}
+.addanimalsbtn:hover{
+    background-color: var(--color-primary1);
+}
+
+/* .addmedication .tag input .input_img{
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+} */
+
+select{
+    width: 300px;
+    height: 70px;
+    padding: 1% 4%;
+    border: none;
+    font-size: 20px;
+    border-radius: 12px;
+    background: var(--color-white);
+}
+select option{
+    height: 100px;
+}

@@ -15,9 +15,9 @@
 
 <div className='main'>
 <div className='box'>
-            <h1 className='h1-text'>HERD HELP</h1>
+            <h1 className='h1-text'>Herd Help</h1>
 
-                <p className='p-text'> Herd help give solution of everything</p>
+                <p className='p-text'> Herd help give solution of managing herds</p>
                     <h3 className='h3-text'>Available on Playstore and Appstore</h3>
                     <p className='p-text'>   Download the App now
                 </p>

@@ -1,6 +1,7 @@
-.addanimals , .addmedication , .updateweight{
+.addanimals , .addmedication , .updateweight , .myherds{
     margin-left: 50%;
     margin-top: 1%;
+    margin-bottom: 1%;
     transform: translate(-50%);
     text-align: center;
     padding: 5% 2%;

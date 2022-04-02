@@ -1,4 +1,6 @@
 import React from 'react'
+import '../components.css'
+
 
 function updateweight() {
   return (
@@ -30,6 +32,8 @@ function updateweight() {
         <input type={Number} required placeholder='Weight'></input>
         </div>
 
+
+<button className='addanimalsbtn'>Update Weight</button>
 
 
     </div>

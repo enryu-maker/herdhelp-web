@@ -12,10 +12,10 @@ import Mainpage from './mainpage/mainpage';
 function App() {
   return (
     <>
-    {/* <Navbar /> */}
-    {/* <Headder /> */}
-    {/* <Logins /> */}
-    {/* <Footer /> */}
+    {/* <Navbar />
+    <Headder />
+    <Logins />
+    <Footer /> */}
     <Mainpage/>
     {/* <Route exact path='/' component={Headder}/> */}
     </>

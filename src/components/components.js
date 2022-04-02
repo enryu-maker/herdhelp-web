@@ -1,6 +1,7 @@
 import React from 'react'
-import addanimal from './addanimals/addanimal'
-
+// import addanimal from './addanimals/addanimal'
+import Myherd from '../components/myherds/myherds'
+import Addanimal from './addanimals/addanimal'
 
 function components() {
   return (
@@ -11,7 +12,7 @@ function components() {
     
    
       {/* <button >click</button> */}
-      <a href='#' >
+      <a href={<Myherd/>} >
     <div class="image1">
     <img src={require('../assets/Logo/heart.png')} alt="logo"  />
     <div class="price_text"><h2>MY HERDS</h2></div>
@@ -19,7 +20,7 @@ function components() {
  
   
   
-  <a href={{addanimal}}>
+  <a href={<Addanimal/>}>
     <div class="image1">
     <img src={require('../assets/Logo/pet-care.png')} alt="logo"  />
     <div class="price_text"><h2>ADD ANIMALS</h2></div>

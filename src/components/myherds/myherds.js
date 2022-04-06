@@ -1,14 +1,18 @@
 import React from 'react'
 
-function myherds() {
+// import { Route } from 'react-router'
+
+function Myherds() {
   return (
     <>
-    <div className='myherds' id='myherds' >
+    
+    <div className='myherds' id='Myherd' >
         <p>Add animals to see your informations</p>
 
     </div>
+
     </>
   )
 }
 
-export default myherds
+export default Myherds

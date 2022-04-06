@@ -4,14 +4,15 @@
     margin-bottom: 1%;
     transform: translate(-50%);
     text-align: center;
-    padding: 5% 2%;
+    padding: 3% 2%;
     width: 800px;
     min-height: 500px;
     background-color: var(--color-lightgray2);
     border-radius: 20px;
+    font-family: monospace;
 }
 
-.addanimals .tag , .addmedication .tag{
+.tag{
     margin: 2% 2%;
 }
 
@@ -49,4 +50,8 @@ select{
 }
 select option{
     height: 100px;
+}
+
+.tag label{
+    /* margin-left: -100px; */
 }
